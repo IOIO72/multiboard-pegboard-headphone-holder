@@ -3,6 +3,7 @@
 /* [Hidden] */
 
 multiboard_grid_offset = 25;
+multiboard_peghole_width = 14.64;
 click_height = 36.8;
 click_mount_depth = 4;
 
@@ -18,6 +19,9 @@ headphone_bracket_depth = 30;
 // Width measrued in the number of multiboard grid holes
 number_of_grid_holes = 4;
 
+// Keep the peg holes close to the holder so that they can be used
+keep_pegholes = true;
+
 wall_thickness = 4;
 wall_height = 10;
 
@@ -31,7 +35,7 @@ $fn = 200;
 
 /* Calculations */
 
-holder_width = multiboard_grid_offset * number_of_grid_holes;
+holder_width = multiboard_grid_offset * number_of_grid_holes - (keep_pegholes ? multiboard_peghole_width : 0);
 total_width = headphone_width + wall_height + wall_thickness + click_mount_depth;
 inner_depth = headphone_bracket_depth + click_mount_depth;
 total_depth = inner_depth + wall_thickness;
