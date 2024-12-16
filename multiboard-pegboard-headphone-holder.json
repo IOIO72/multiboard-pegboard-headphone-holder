@@ -1,0 +1,14 @@
+{
+    "fileFormatVersion": "1",
+    "parameterSets": {
+        "Neue Parameter Liste1": {
+            "$fn": "200",
+            "click_position": "4",
+            "headphone_bracket_depth": "30",
+            "headphone_width": "160",
+            "number_of_grid_holes": "4",
+            "wall_height": "10",
+            "wall_thickness": "4"
+        }
+    }
+}
