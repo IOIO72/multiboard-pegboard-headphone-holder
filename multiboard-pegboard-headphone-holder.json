@@ -11,10 +11,30 @@
           "wall_height": "10",
           "wall_thickness": "4"
       },
+      "Generic 15": {
+          "$fn": "200",
+          "click_position": "0",
+          "headphone_bracket_depth": "15",
+          "headphone_width": "160",
+          "keep_pegholes": "true",
+          "number_of_grid_holes": "4",
+          "wall_height": "10",
+          "wall_thickness": "4"
+      },
       "Generic 20": {
           "$fn": "200",
           "click_position": "0",
           "headphone_bracket_depth": "20",
+          "headphone_width": "160",
+          "keep_pegholes": "true",
+          "number_of_grid_holes": "4",
+          "wall_height": "15",
+          "wall_thickness": "4"
+      },
+      "Generic 25": {
+          "$fn": "200",
+          "click_position": "0",
+          "headphone_bracket_depth": "25",
           "headphone_width": "160",
           "keep_pegholes": "true",
           "number_of_grid_holes": "4",
@@ -31,6 +51,16 @@
             "wall_height": "20",
             "wall_thickness": "4"
         },
+        "Generic 35": {
+            "$fn": "200",
+            "click_position": "0",
+            "headphone_bracket_depth": "35",
+            "headphone_width": "160",
+            "keep_pegholes": "true",
+            "number_of_grid_holes": "4",
+            "wall_height": "20",
+            "wall_thickness": "4"
+        },
         "Generic 40": {
             "$fn": "200",
             "click_position": "0",
@@ -41,10 +71,30 @@
             "wall_height": "20",
             "wall_thickness": "4"
         },
+        "Generic 45": {
+            "$fn": "200",
+            "click_position": "0",
+            "headphone_bracket_depth": "45",
+            "headphone_width": "160",
+            "keep_pegholes": "true",
+            "number_of_grid_holes": "4",
+            "wall_height": "20",
+            "wall_thickness": "4"
+        },
         "Generic 50": {
             "$fn": "200",
             "click_position": "0",
             "headphone_bracket_depth": "50",
+            "headphone_width": "160",
+            "keep_pegholes": "true",
+            "number_of_grid_holes": "4",
+            "wall_height": "20",
+            "wall_thickness": "4"
+        },
+        "Generic 55": {
+            "$fn": "200",
+            "click_position": "0",
+            "headphone_bracket_depth": "55",
             "headphone_width": "160",
             "keep_pegholes": "true",
             "number_of_grid_holes": "4",
