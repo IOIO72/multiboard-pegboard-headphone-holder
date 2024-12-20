@@ -1,4 +1,4 @@
-# Multiboard Headphone Holders On Multipoint Rails Or Pegboard
+# Multiboard Headphone Holders For Multipoint Or Pegboard
 
 by IOIO72 aka Tamio Patrick Honma (https://honma.de)
 
