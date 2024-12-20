@@ -6,6 +6,8 @@ multiboard_grid_offset = 25;
 multiboard_peghole_width = 14.64;
 click_height = 36.8;
 click_mount_depth = 4;
+multipoint_rail_max_width = 18.6;
+multipoint_rail_max_depth = 2.2;
 
 
 /* [Headphone] */
@@ -15,6 +17,8 @@ headphone_bracket_depth = 30;
 
 
 /* [Holder] */
+
+mount_type = "click"; // [click:Pegboard Click, rail:Multipoint Rail Slot]
 
 // Width measrued in the number of multiboard grid holes
 number_of_grid_holes = 4;
@@ -40,6 +44,12 @@ total_width = headphone_width + wall_height + wall_thickness + click_mount_depth
 inner_depth = headphone_bracket_depth + click_mount_depth;
 total_depth = inner_depth + wall_thickness;
 
+// Rail
+
+rail_width = multipoint_rail_max_width + click_mount_depth;
+rail_depth = click_mount_depth;
+rail_height = click_height;
+
 
 /* Parts */
 
@@ -47,6 +57,26 @@ module pegboardClick() {
   rotate([0, -90, 90]) {
     translate([-6.6, 0, 0]) {
       import("Pegboard Click.stl", $fn=200);
+    }
+  }
+}
+
+module railSlot() {
+  rotate([0, 180, 0]) {
+    translate([0, 0, click_mount_depth]) {
+      difference() {
+        union() {
+          cube([rail_height, rail_width, rail_depth], center=true);
+          translate([0, 0, -rail_depth + multipoint_rail_max_depth / 2]) {
+            cube([rail_height, rail_width, rail_depth / 2], center=true);
+          }
+        }
+        rotate([180, 0, 90]) {
+          translate([0, multiboard_grid_offset / 2 - click_mount_depth, -multipoint_rail_max_depth]) {
+            import("Lite Multipoint Rail - Negative.stl", $fn=200);
+          }
+        }
+      }
     }
   }
 }
@@ -90,6 +120,10 @@ rotate([0, 180, 0]) {
   holder();
 
   translate([-headphone_width / 2 - click_position, 0, click_mount_depth]) {
-    pegboardClick();
+    if (mount_type == "click") {
+      pegboardClick();
+    } else {
+      railSlot();
+    }
   }
 }
