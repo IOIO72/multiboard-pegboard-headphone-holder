@@ -8,11 +8,13 @@ Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Int
 
 This is a collection of headphone holders in different sizes for [Multiboard](https://www.multiboard.io/) Pegboard or [Multipoint](https://www.multiboard.io/parts-library/multipoint/multipoints).
 
-Note that you have more options if you use the Multipoint version with rail slots. This can be particularly useful if you want to use the holder in a different place later.
+The width of the holder takes the Multiboard grid into account. It is precisely adapted to the grid and leaves out the holes for the pegboards on the right and left.
 
-The pegboard click version requires less printing time and is less stable.
+Note that you have more options if you use the Multipoint version with rail slots. Discover the mount possibilities on the [Multipoints/Rails page](https://www.multiboard.io/parts-library/multipoint/multipoints). This can be particularly useful if you want to use the holder in a different place later.
 
-The very large versions may be used to hang two headphones on one holder. It's strongly recommended to use the rail slot version for better stability.
+The pegboard click version requires less printing time, less parts and is less stable.
+
+The very large versions of the headphone holders may be used to hang two headphones on one holder. It's strongly recommended to use the rail slot version for better stability.
 
 In general: The larger the headphone holder, the more likely you should use the rail slot version.
 
