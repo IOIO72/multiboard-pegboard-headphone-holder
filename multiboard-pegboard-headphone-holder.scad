@@ -3,6 +3,7 @@
 /* [Advanced] */
 
 $fn = 200;
+preview_sample_multiboard = true;
 animate = false;
 
 
@@ -38,8 +39,6 @@ wall_thickness = 4;
 wall_height = 10;
 
 click_position = -6; // [-16 : 16]
-
-preview_sample_multiboard = true;
 
 
 /* Calculations */
