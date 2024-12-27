@@ -3,7 +3,7 @@
     "parameterSets": {
         "Generic 10 (Pegboard Click)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "10",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -14,7 +14,7 @@
         },
         "Generic 15 (Pegboard Click)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "15",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -25,7 +25,7 @@
         },
         "Generic 20 (Pegboard Click)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "20",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -36,7 +36,7 @@
         },
         "Generic 25 (Pegboard Click)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "25",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -47,7 +47,7 @@
         },
         "Generic 30 (Pegboard Click)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "30",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -58,7 +58,7 @@
         },
         "Generic 35 (Pegboard Click)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "35",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -69,7 +69,7 @@
         },
         "Generic 40 (Pegboard Click)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "40",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -80,7 +80,7 @@
         },
         "Generic 45 (Pegboard Click)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "45",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -91,7 +91,7 @@
         },
         "Generic 50 (Pegboard Click)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "50",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -102,7 +102,7 @@
         },
         "Generic 55 (Pegboard Click)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "55",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -113,7 +113,7 @@
         },
         "Generic 60 (Pegboard Click)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "60",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -124,7 +124,7 @@
         },
         "Sonos Ace (Pegboard Click)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "30",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -135,7 +135,7 @@
         },
         "Apple AirPods Max (Pegboard Click)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "42",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -146,7 +146,7 @@
         },
         "Generic 10 (Multipoint Rail Slot)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "10",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -157,7 +157,7 @@
         },
         "Generic 15 (Multipoint Rail Slot)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "15",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -168,7 +168,7 @@
         },
         "Generic 20 (Multipoint Rail Slot)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "20",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -179,7 +179,7 @@
         },
         "Generic 25 (Multipoint Rail Slot)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "25",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -190,7 +190,7 @@
         },
         "Generic 30 (Multipoint Rail Slot)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "30",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -201,7 +201,7 @@
         },
         "Generic 35 (Multipoint Rail Slot)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "35",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -212,7 +212,7 @@
         },
         "Generic 40 (Multipoint Rail Slot)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "40",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -223,7 +223,7 @@
         },
         "Generic 45 (Multipoint Rail Slot)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "45",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -234,7 +234,7 @@
         },
         "Generic 50 (Multipoint Rail Slot)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "50",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -245,7 +245,7 @@
         },
         "Generic 55 (Multipoint Rail Slot)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "55",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -256,7 +256,7 @@
         },
         "Generic 60 (Multipoint Rail Slot)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "60",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -267,7 +267,7 @@
         },
         "Sonos Ace (Multipoint Rail Slot)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "30",
             "headphone_width": "160",
             "keep_pegholes": "true",
@@ -278,7 +278,7 @@
         },
         "Apple AirPods Max (Multipoint Rail Slot)": {
             "$fn": "200",
-            "click_position": "0",
+            "click_position": "-6",
             "headphone_bracket_depth": "42",
             "headphone_width": "160",
             "keep_pegholes": "true",
