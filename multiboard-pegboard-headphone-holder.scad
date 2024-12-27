@@ -2,6 +2,7 @@
 
 /* [Hidden] */
 
+nothing=0.01; // z-fighting fix
 multiboard_grid_offset = 25;
 multiboard_peghole_width = 14.64;
 click_height = 36.8;
@@ -96,7 +97,7 @@ module holder() {
   difference() {
     union() {
       // Main Holder Circle
-      linear_extrude(total_depth) {
+      linear_extrude(total_depth - 2 * nothing) {
         difference() {
           circle(d = headphone_width);
           circle(d = headphone_width - wall_thickness);
@@ -104,7 +105,7 @@ module holder() {
       }
       // Front Wall Holder Circle
       translate([0, 0, inner_depth]) {
-        linear_extrude(wall_thickness) {
+        linear_extrude(wall_thickness - 2 * nothing) {
           difference() {
             circle(d = headphone_width + wall_thickness + wall_height);
             circle(d = headphone_width);
@@ -113,7 +114,7 @@ module holder() {
       }
     }
     // Cut Holder
-    translate([-total_width / 2, 0, 0]) {
+    translate([-total_width / 2, 0, -nothing]) {
       linear_extrude(total_depth) {
         difference() {
           square([total_width * 2, total_width], center=true);
