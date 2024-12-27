@@ -1,5 +1,11 @@
 /* Multiboard Pegboard Headphone Holder */
 
+/* [Advanced] */
+
+$fn = 200;
+animate = false;
+
+
 /* [Hidden] */
 
 nothing=0.01; // z-fighting fix
@@ -9,6 +15,7 @@ click_height = 36.8;
 click_mount_depth = 4;
 multipoint_rail_max_width = 18.6;
 multipoint_rail_max_depth = 2.2;
+multipoint_rail_offset = -6; // Adjust the holder position to match the rail slot
 
 
 /* [Headphone] */
@@ -34,12 +41,11 @@ click_position = -6; // [-16 : 16]
 
 preview_sample_multiboard = true;
 
-/* [Advanced] */
-
-$fn = 200;
-
 
 /* Calculations */
+
+animated_click_position = 16 * sin($t*360); // Animation
+calculated_click_position = $preview && animate ? animated_click_position : click_position;
 
 holder_width = multiboard_grid_offset * number_of_grid_holes - (keep_pegholes ? multiboard_peghole_width : 0);
 total_width = headphone_width + wall_height + wall_thickness + click_mount_depth;
@@ -130,7 +136,7 @@ module holder() {
 
 if ($preview && preview_sample_multiboard) {
   translate([
-    headphone_width / 2 + click_position - click_height / 2 + multiboard_peghole_width / 2 + (mount_type == "click" ? 0 : -6),
+    headphone_width / 2 + calculated_click_position - click_height / 2 + multiboard_peghole_width / 2 + (mount_type == "click" ? 0 : multipoint_rail_offset),
     0,
     0
   ]) {
@@ -141,7 +147,7 @@ if ($preview && preview_sample_multiboard) {
 rotate([0, 180, 0]) {
   holder();
 
-  translate([-headphone_width / 2 - click_position, 0, click_mount_depth]) {
+  translate([-headphone_width / 2 - calculated_click_position, 0, click_mount_depth]) {
     if (mount_type == "click") {
       pegboardClick();
     } else {
