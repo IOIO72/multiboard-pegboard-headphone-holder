@@ -29,8 +29,9 @@ keep_pegholes = true;
 wall_thickness = 4;
 wall_height = 10;
 
-click_position = 0; // [-16 : 16]
+click_position = -6; // [-16 : 16]
 
+preview_sample_multiboard = true;
 
 /* [Advanced] */
 
@@ -50,8 +51,18 @@ rail_width = multipoint_rail_max_width + click_mount_depth;
 rail_depth = click_mount_depth;
 rail_height = click_height;
 
+// Sample Multiboard
+
+sample_multiboard_size = 4 * multiboard_grid_offset;
+sample_multiboard_offset = sample_multiboard_size / 2 + multiboard_grid_offset / 2;
 
 /* Parts */
+
+module sampleMultiboardCorner() {
+  translate([-sample_multiboard_offset, -sample_multiboard_offset, 2]) {
+    color("#cccccc") import("4x4 Multiboard Corner.stl", $fn=200);
+  }
+}
 
 module pegboardClick() {
   rotate([0, -90, 90]) {
@@ -115,6 +126,16 @@ module holder() {
 
 
 /* Main */
+
+if ($preview && preview_sample_multiboard) {
+  translate([
+    headphone_width / 2 + click_position - click_height / 2 + multiboard_peghole_width / 2 + (mount_type == "click" ? 0 : -6),
+    0,
+    0
+  ]) {
+    sampleMultiboardCorner();
+  }
+}
 
 rotate([0, 180, 0]) {
   holder();
