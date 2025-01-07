@@ -136,7 +136,7 @@
         "Apple AirPods Max (Pegboard Click)": {
             "$fn": "200",
             "click_position": "-6",
-            "headphone_bracket_depth": "42",
+            "headphone_bracket_depth": "48",
             "headphone_width": "160",
             "keep_pegholes": "true",
             "mount_type": "click",
@@ -279,7 +279,7 @@
         "Apple AirPods Max (Multipoint Rail Slot)": {
             "$fn": "200",
             "click_position": "-6",
-            "headphone_bracket_depth": "42",
+            "headphone_bracket_depth": "48",
             "headphone_width": "160",
             "keep_pegholes": "true",
             "mount_type": "rail",
